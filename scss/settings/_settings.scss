@@ -10,34 +10,30 @@
 //   5. Button
 //   6. Callout
 //   7. Menu
-//   8. Thumbnail
+//   8. Thumbnial
 
-
-
-//colors:
-$yellow: #FBF18E;
-$accent: #F61067;
-$grey: #666666;
 
 // 1. Global
 // ---------
 
-$primary-color: $accent;
+$primary-color: #2199e8;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
 $alert-color: #ec5840;
 $light-gray: #f3f3f3;
 $medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
-$black: #000;
-$white: #fff;
+$dark-gray: #666;
+$black: #0a0a0a;
+$white: #fefefe;
 $pre-color: #ff6908;
-$global-width: 580px;
+$global-width: 650px;
 $global-width-small: 95%;
 $global-gutter: 16px;
-$body-background: $yellow;
+$body-background: $light-gray;
 $container-background: $white;
+$global-font-color: $black;
+$body-font-family: 'PT Sans Narrow', sans-serif;
 $global-padding: 16px;
 $global-margin: 16px;
 $global-radius: 3px;
@@ -49,7 +45,6 @@ $global-breakpoint: $global-width + $global-gutter;
 
 $grid-column-count: 12;
 $column-padding-bottom: $global-padding;
-$container-radius: 0;
 
 // 3. Block Grid
 // -------------
@@ -60,22 +55,20 @@ $block-grid-gutter: $global-gutter;
 // 4. Typography
 // -------------
 
-$global-font-color: $black;
-$body-font-family: Helvetica, Arial, sans-serif;
 $global-font-weight: normal;
 $header-color: inherit;
 $global-line-height: 1.3;
-$global-font-size: 14px;
-$body-line-height: $global-line-height;
+$global-font-size: 18px;
+$body-line-height: 19px;
 $header-font-family: $body-font-family;
-$header-font-weight: bold;
-$h1-font-size: 22px;
-$h2-font-size: 16px;
-$h3-font-size: 14px;
+$header-font-weight: $global-font-weight;
+$h1-font-size: 34px;
+$h2-font-size: 30px;
+$h3-font-size: 28px;
 $h4-font-size: 24px;
 $h5-font-size: 20px;
 $h6-font-size: 18px;
-$header-margin-bottom: 0;
+$header-margin-bottom: 10px;
 $paragraph-margin-bottom: 10px;
 $small-font-size: 80%;
 $small-font-color: $medium-gray;
@@ -88,7 +81,7 @@ $subheader-font-weight: $global-font-weight;
 $subheader-margin-top: 4px;
 $subheader-margin-bottom: 8px;
 $hr-width: $global-width;
-$hr-border: 1px solid $black;
+$hr-border: 1px solid $medium-gray;
 $hr-margin: 20px auto;
 $anchor-text-decoration: none;
 $anchor-color: $primary-color;
@@ -103,22 +96,22 @@ $stat-font-size: 40px;
 $button-padding: (
   tiny: 4px 8px 4px 8px,
   small: 5px 10px 5px 10px,
-  default: 12px 35px 12px 35px,
+  default: 15px 17px 15px 17px,
   large: 10px 20px 10px 20px,
 );
 $button-font-size: (
   tiny: 10px,
   small: 12px,
-  default: 16px,
+  default: 18px,
   large: 20px,
 );
-$button-color: $accent;
+$button-color: $white;
 $button-color-alt: $medium-gray;
-$button-font-weight: normal;
+$button-font-weight: bold;
 $button-margin: 0 0 $global-margin 0;
 $button-background: transparent;
-$button-border: 2px solid $accent;
-$button-radius: 0;
+$button-border: none;
+$button-radius: $global-radius;
 $button-rounded: $global-rounded;
 
 // 6. Callout
@@ -141,7 +134,7 @@ $menu-item-padding: 10px;
 $menu-item-gutter: 10px;
 $menu-item-color: $primary-color;
 
-// 8. Thumbnail
+// 8. Thumbnial
 // ------------
 
 $thumbnail-border: solid 4px $white;
