@@ -1449,10 +1449,10 @@ body.outlook p {
   font-weight: bold; }
 
 .features-decorative {
-  position: relative;
-  left: 13px;
-  top: -65px;
-  background: url(../img/notebook.png) no-repeat; }
+  /*outline: 2px solid #000;*/ }
+
+.features-decorative img {
+  padding-left: 13px; }
 
 .advantage {
   background: #1f8cd7 url(../img/bg-advantage.jpg) no-repeat; }
@@ -1472,16 +1472,16 @@ body.outlook p {
   font-weight: 600; }
 
 .business-text {
-  padding-left: 40px; }
+  /*padding-left: 20px;*/ }
 
 .dot {
+  width: 5% !important; }
+
+.dot-img {
   display: block;
-  position: absolute;
   width: 10px;
   height: 10px;
-  margin-top: 5px;
-  margin-left: 15px;
-  background: url(../img/dot.png); }
+  margin-top: 7px; }
 
 .border {
   margin-left: 35px;
@@ -1491,9 +1491,6 @@ body.outlook p {
 
 .plus {
   display: block;
-  position: absolute;
-  bottom: 110px;
-  left: 35px;
   width: 32px;
   height: 32px;
   background: url(../img/plus.png); }
@@ -1503,7 +1500,4 @@ body.outlook p {
   margin-left: 35px; }
 
 .laptop {
-  position: relative;
-  left: 13px;
-  top: -65px;
   background: url(../img/laptop.png) no-repeat; }

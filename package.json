@@ -1,0 +1,29 @@
+{
+  "name": "test-email",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StasLenivec/Test-email.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StasLenivec/Test-email/issues"
+  },
+  "homepage": "https://github.com/StasLenivec/Test-email#readme",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inline-css": "^3.3.0",
+    "gulp-inline-source": "^3.1.0",
+    "gulp-sass": "^4.0.1",
+    "inky": "^1.3.7"
+  },
+  "dependencies": {
+    "inline-source": "^6.1.4"
+  }
+}
