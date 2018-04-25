@@ -1413,24 +1413,18 @@ body.outlook p {
 .main {
   background: #1c8ad6 url(../img/bg-intro.jpg); }
 
-.intro img {
-  margin-left: 35px; }
-
 .intro-header {
-  margin-left: 35px;
   font-size: 25px;
   font-weight: 600;
   color: #fff; }
 
 .intro-text {
-  margin-left: 35px;
   font-size: 30px;
   line-height: 38px;
   font-weight: 600;
   color: #fff; }
 
 .btn-subscribe {
-  margin-left: 35px;
   padding: 15px 17px 15px 17px;
   background: #ffae00;
   font-size: 18px;
@@ -1440,7 +1434,6 @@ body.outlook p {
   background: #fefefe url(../img/bg-features.jpg); }
 
 .features-text {
-  margin-left: 35px;
   padding: 0 16px; }
 
 .big-size {
@@ -1448,56 +1441,74 @@ body.outlook p {
   line-height: 30px;
   font-weight: bold; }
 
-.features-decorative {
-  /*outline: 2px solid #000;*/ }
-
 .features-decorative img {
+  float: right;
   padding-left: 13px; }
 
 .advantage {
   background: #1f8cd7 url(../img/bg-advantage.jpg) no-repeat; }
 
 .advantage h2 {
-  padding-left: 30px;
   font-weight: 600;
   color: #fff; }
 
 .advantage p {
   color: #fff; }
 
-.advantage-text {
-  padding-left: 30px; }
-
 .advantage span {
   font-weight: 600; }
 
-.business-text {
-  /*padding-left: 20px;*/ }
-
-.dot {
-  width: 5% !important; }
+.business-list {
+  padding-left: 0;
+  padding-right: 85px; }
 
 .dot-img {
-  display: block;
+  float: left;
   width: 10px;
   height: 10px;
-  margin-top: 7px; }
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-bottom: 5px; }
 
 .border {
-  margin-left: 35px;
   margin-right: 20px;
   padding: 15px 20px;
   border: 2px solid #fff; }
 
-.plus {
+/*.plus {
   display: block;
   width: 32px;
   height: 32px;
-  background: url(../img/plus.png); }
-
+  background: url(../img/plus.png);
+}*/
 .advantage-results {
-  margin-right: 190px;
-  margin-left: 35px; }
+  margin-right: 190px; }
 
-.laptop {
-  background: url(../img/laptop.png) no-repeat; }
+.guide-title {
+  font-size: 30px;
+  font-weight: 600; }
+
+.laptop img {
+  padding-left: 16px; }
+
+.how-connect {
+  font-weight: 600; }
+
+.indent {
+  width: 6.5% !important;
+  outline: 1px solid #771; }
+
+.product {
+  background: #f6f6f6; }
+
+.product-item img {
+  float: left;
+  margin-right: 20px; }
+
+.product-item h2 {
+  margin-bottom: 5px;
+  font-weight: 600;
+  line-height: 1; }
+
+.outline {
+  outline: 1px solid #923; }
