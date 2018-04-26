@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #outlook a {
   padding: 0; }
 
@@ -1387,6 +1388,9 @@ body.outlook p {
 .no-bg {
   background: transparent !important; }
 
+.indent {
+  width: 6.5% !important; }
+
 .header {
   background: #666 url(../img/bg-info-menu.jpg); }
 
@@ -1425,10 +1429,9 @@ body.outlook p {
   color: #fff; }
 
 .btn-subscribe {
-  padding: 15px 17px 15px 17px;
+  padding: 15px 17px;
   background: #ffae00;
-  font-size: 18px;
-  letter-spacing: 1px; }
+  font-size: 18px; }
 
 .features {
   background: #fefefe url(../img/bg-features.jpg); }
@@ -1491,12 +1494,8 @@ body.outlook p {
 .laptop img {
   padding-left: 16px; }
 
-.how-connect {
+.guide-connect {
   font-weight: 600; }
-
-.indent {
-  width: 6.5% !important;
-  outline: 1px solid #771; }
 
 .product {
   background: #f6f6f6; }
@@ -1509,6 +1508,26 @@ body.outlook p {
   margin-bottom: 5px;
   font-weight: 600;
   line-height: 1; }
+
+.btn-subscribe-item {
+  background: #34ace0; }
+
+.neboskreb-img {
+  margin-left: 40px; }
+
+.app-store,
+.google-play {
+  float: left; }
+
+.google-play img {
+  margin-right: 0; }
+
+/*Для оформления*/
+.indent {
+  outline: 1px solid #771; }
+
+.spacer {
+  outline: 1px solid #771; }
 
 .outline {
   outline: 1px solid #923; }

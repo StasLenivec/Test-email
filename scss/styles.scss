@@ -13,6 +13,10 @@ $grey: #666666;
   background: transparent !important;
 }
 
+.indent {
+  width: 6.5% !important;
+}
+
 .header {
   background: $dark-gray url(../img/bg-info-menu.jpg);
 }
@@ -61,10 +65,9 @@ $grey: #666666;
 }
 
 .btn-subscribe{
-  padding: 15px 17px 15px 17px;
+  padding: 15px 17px;
   background: $warning-color;
   font-size: 18px;
-  letter-spacing: 1px;
 }
 
 .features {
@@ -143,13 +146,8 @@ $grey: #666666;
   padding-left: 16px;
 }
 
-.how-connect {
+.guide-connect {
   font-weight: 600;
-}
-
-.indent {
-  width: 6.5% !important;
-  outline: 1px solid #771;
 }
 
 .product {
@@ -168,8 +166,32 @@ $grey: #666666;
 }
 
 .btn-subscribe-item {
-
+  background: #34ace0;
 }
+
+.neboskreb-img {
+  margin-left: 40px;
+}
+
+.app-store,
+.google-play {
+  float: left;
+}
+
+.google-play img{
+  margin-right: 0;
+}
+
+/*Для оформления*/
+
+.indent {
+  outline: 1px solid #771;
+}
+
+.spacer {
+  outline: 1px solid #771;
+}
+
 .outline {
   outline: 1px solid #923;
 }
