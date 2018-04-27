@@ -130,7 +130,7 @@ $grey: #666666;
   display: block;
   width: 32px;
   height: 32px;
-  background: url(../img/plus.png);
+  background: url(https://a.radikal.ru/a29/1804/25/9fe7064290a0.png);
 }*/
 
 .advantage-results {
@@ -150,13 +150,14 @@ $grey: #666666;
   font-weight: 600;
 }
 
-.product {
+.product,
+.product-neboskreb {
   background: #f6f6f6;
 }
 
 .product-item img {
   float: left;
-  margin-right: 20px;
+  margin-right: 8px;
 }
 
 .product-item h2 {
@@ -182,16 +183,41 @@ $grey: #666666;
   margin-right: 0;
 }
 
-/*Для оформления*/
-
-.indent {
-  outline: 1px solid #771;
+.social-title {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
 }
 
-.spacer {
-  outline: 1px solid #771;
+.social-list {
+  margin: 0;
+  padding: 0 40px;
 }
 
-.outline {
-  outline: 1px solid #923;
+.social-item {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.img-social {
+  float: left;
+  margin-right: 10px;
+}
+
+.social-item a {
+  font-size: 20px;
+  line-height: 25px;
+  color: #000;
+  text-decoration: underline;
+}
+
+.link-site {
+  font-size: 20px;
+  color: #000;
+  text-decoration: underline;
+}
+
+.number {
+  font-size: 20px;
 }
